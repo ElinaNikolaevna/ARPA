@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Prata&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet');
+
+* 
+{
+  padding:0px;
+  margin:0px;
+}
+
+body,html {
+  box-sizing:border-box;
+}
+
+.maket
+{
+  position:absolute;
+  opacity:0.7;
+}
+
+@media (max-width:670px){
+
+.search, .company, .er-catalog, .lang
+{
+  display:none;
+}
+
+.er-header
+{
+  min-width:320px;
+  display:flex;
+  padding-top:20px;
+  font-family: Montserrat, sans-serif;
+  background: linear-gradient(to right, #484B9B 86%, white 14%);
+}
+ 
+.logo
+{
+  width:17%;
+  text-transform:uppercase;
+  text-decoration:none;
+  font-family: Prata, serif;
+  color: white;
+  font-size:16px;
+  padding-left:3%;
+}
+
+.contact-inf
+  {
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+.mail
+{
+  width:25%;
+  font-size:12px;
+  margin-left:20px;
+  text-decoration:none;
+  color:white;
+  padding-top:5px;
+  box-sizing:border-box;
+}
+
+.phone
+{
+  width:28%;
+  font-size:12px;
+  margin-left:6px;
+  color:white;
+  text-decoration:none;
+  padding-top:5px;
+  padding-left:2px;
+  box-sizing:border-box;
+}
+
+.hamburger
+{
+  width:24px;
+  height:24px;
+  position:absolute;
+  top:18px;
+  right:4%;
+}
+
+.er-poster
+{
+  min-width:320px;
+  background: linear-gradient(to right, #484B9B 86%, white 14%);
+  color:white;
+  box-sizing:border-box;
+  padding-top:10%;
+  padding-left:11%;
+  padding-right:22%;
+  padding-bottom:7%;
+  line-height: 110%;
+}
+
+.headline-common, .headline-erpa
+{
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight:normal;
+  line-height: 1.32;
+}
+
+.headline-erpa
+{
+  box-sizing:border-box;
+  margin-top:29px;
+  padding-left:2px;
+}
+
+.er-indicators
+{
+  display:flex;
+  flex-wrap: wrap;
+  width:300px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing:border-box;
+  list-style-type:none;
+}
+
+.er-indicators-list
+{
+  width:140px;
+  height:90px;
+  box-sizing:border-box;
+  margin-top:20px;
+  text-decoration:none;
+  border: 1px solid #484B9B;
+}
+
+.er-indicators-list:nth-child(odd)
+{
+  margin-right:20px;
+}
+
+.er-indicators-name
+{
+  width:140px;
+  height:90px;
+  display:inline-block;
+  text-align:center;
+  text-decoration:none;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight:normal;
+  line-height: 1.3;
+  color:#484B9B;
+}
+
+.er-indicators-list
+{
+  width:140px;
+  height:90px;
+  box-sizing:border-box;
+  word-wrap:break-word;
+}
+
+.er-indicators-name
+{
+  word-wrap:break-word;
+}
+
+.er-indicators-list:nth-child(-n+4)
+{
+padding-top:35px;
+}
+
+.er-indicators-list:nth-child(5)
+{
+padding-top:26px;
+}
+
+.er-indicators-list:nth-child(2n+6)
+{
+padding-top:16px;
+}
+
+.er-indicators-list:nth-child(2n+5)
+{
+padding-top:26px;
+}
+
+.er-indicators-list:nth-child(2n+8)
+{
+padding-left:10px;
+padding-right:10px;
+word-wrap:break-word;
+}
+
+.er-indicators-list:nth-child(10)
+{
+  display:flex;
+  box-sizing:border-box;
+  word-wrap:break-word;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.er-indicators-list:nth-child(8)
+{
+  display:flex;
+  box-sizing:border-box;
+  word-wrap:break-word;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:27px;
+}
+
+.pointer-decrease, .pointer-increase
+{
+  display:none;
+}
+
+.er-news
+{
+  display:flex;
+  min-width:320px;
+  padding-top:60px;
+  padding-left:10px;
+  list-style-type:none;
+  line-height: 1.3;
+  color:#484B9B;
+  box-sizing:border-box;
+}
+
+.er-news-unit:first-child
+{
+  width:237px;
+  margin-right:17px;
+}
+
+.er-news-unit:nth-child(2)
+{
+  margin-right:17px;
+}
+
+.er-news-unit:nth-child(3)
+{
+  width: 237px;
+}
+
+.news-unit-image
+{
+  margin-bottom:9px;
+  width:237px;
+  height:131px;
+}
+
+.news-unit-text
+{
+  text-align:center;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight:normal;
+}
+
+.er-manufacturer
+{
+  min-width:320px;
+  margin-top:60px;
+}
+
+.er-manufacturer h4
+{
+  font-family: Prata, serif;
+  font-size:20px;
+  text-align:center;
+  font-weight:normal;
+  color:#484B9B;
+  margin-bottom:23px;
+}
+
+.er-manufacturer h5
+{
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight:500;
+  color:#484B9B;
+  text-align:left;
+  margin-left:11.5%;
+  margin-bottom:24px;
+}
+
+.er-manufacturer p
+{
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight:400;
+  color:#484B9B;
+  text-align:left;
+  margin-left:11.5%;
+  margin-right:14%;
+  line-height:1.33;
+}
+
+.Yok-pr h4, .Yok-pr h5, .Yok-pr p
+{
+  color:white;
+}
+
+.Yok-pr
+{
+  background-color:#484B9B;
+  margin-top:39px;
+  padding-top:24px;
+  color:white;
+  box-sizing:border-box;
+}
+
+.Yok-pr h5
+{
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight:500;
+}
+
+.Yok-pr p
+{
+  margin-right:45px;
+  line-height:1.33;
+  padding-bottom: 74px;
+}
+
+.er-help
+{
+  min-width:320px;
+  height:158px;
+  padding-top:39px;
+  background: linear-gradient(to bottom, #484B9B 75%, white 25%);
+  text-align:center;
+  box-sizing:border-box;
+  border-top:1px solid white;
+  border-bottom:1px solid #484B9B;
+  border-left:1px solid #484B9B;
+  border-right:1px solid #484B9B;
+}
+
+.er-help h5, .er-help a
+{
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight:400;
+  color:white;
+  text-align:center;
+}
+
+.er-help a
+{
+  display:inline-block;
+  text-decoration:none;
+  width:155px;
+  height:35px;
+  background-color:white;
+  border:1px solid #484B9B;
+  color:#484B9B;
+  margin-top:19px;
+  padding-top:9px;
+  box-sizing:border-box;
+}
+
+.er-footer
+{
+  min-width:320px;
+  padding-left:58px;
+  padding-bottom:20px;
+  box-sizing:border-box;
+  padding-top:19px;
+  text-decoration:none;
+}
+
+.er-footer ol
+{
+  list-style-type:none;
+  text-decoration:none;
+}
+
+.er-footer h5
+{
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight:500;
+  color:#484B9B;
+}
+
+.er-footer a
+{
+  text-decoration:none;
+}
+
+.f-cat-el
+{
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight:400;
+  color:#484B9B;
+  padding-top:11px;
+  display:inline-block;
+}
+
+.f-company h5
+{
+  margin-top:38px;
+}
+
+.f-com-el
+{
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight:400;
+  color:#484B9B;
+  margin-top:12px;
+  display:inline-block;
+}
+
+.f-mail, .f-phone, .f-lang
+{
+  display:inline-block;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight:400;
+  color:#484B9B;
+}
+
+.f-mail
+{
+  width:100%;
+  margin-top:45px;
+}
+
+.f-phone
+{
+  margin-top:10px;
+}
+
+.f-lang
+{
+  margin-left:85px;
+  text-transform:uppercase;
+}
+}
