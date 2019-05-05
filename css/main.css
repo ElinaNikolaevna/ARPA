@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Prata&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet');
 
 * 
 {
@@ -10,33 +10,8 @@ body,html {
   box-sizing:border-box;
 }
 
-html {
- 	overflow-y:visible;
-}
-
-*
+.maket
 {
-	overflow-y:hidden;
-	overflow-x:hidden;	
-}
-
-.at-list, .pl-list, .m-list{
-  list-style-type: none;
-}
-
-.s-header, .logo, .s-footer, .f-download, .f-title, .f-title-1, .f-title-2
-{
-overflow-x:hidden;
-}
-
-
-.pic-m1, .pic-m2, .pic-m3
-{
-overflow-y:hidden;
-}
-
-.s-footer, .f-download, .f-title, .f-title-1, .f-title-2
-{
-overflow-x:visible;
-overflow-y:visible;
+	position:absolute;
+	opacity:0.7;
 }
