@@ -8,10 +8,12 @@
 
 body,html {
   box-sizing:border-box;
+  overflow-x: hidden;
 }
 
 .maket
 {
 	position:absolute;
 	opacity:0;
+	width: 0px;
 }

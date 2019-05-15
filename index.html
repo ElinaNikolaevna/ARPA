@@ -10,43 +10,53 @@
     <link href="./css/main.css" rel="stylesheet">
 </head>
 <body> 
+
+  <picture>
+    <source srcset="http://u.cubeupload.com/Elin/Mobile3.jpg" media="(max-width: 670px)">     
+    <source srcset="http://u.cubeupload.com/Elin/Laptop7.jpg" media="(min-width: 671px) and (max-width: 1070px)">    
+    <source srcset="http://u.cubeupload.com/Elin/24.jpg" media="(min-width: 1071px)">    
+    <img src="http://u.cubeupload.com/Elin/24.jpg" class="maket">    
+  </picture>   
+<div class="wrapper">
+  <div class="wrapper-first-screen">
   <header class="er-header">
     <a class="logo" href="#">Эрпа</a>
-    <section class="search">
-    <h5 class="search-title">Поиск</h5>
-    <a class="search-button" href="#"><img src="./images/Ellipse.png" alt="magnifier"></a>
-    </section>
+    <form class="search">
+    <input type="text" name="search" value="Поиск"class="search-title">
+    <input type="submit" value="" class="search-button">
+    </form>
     <section class="header-inf">
-      <section class="contact-inf">
+      <div class="contact-inf">
       <a class="mail" href="#">erpa@erpa.ru</a>
       <a class="phone" href="#">8(495)640-08-77</a>
-      </section>
-      <section class="common-inf">
+      </div>
+      <div class="common-inf">
       <a class="company" href="#">о нас</a>
     <a class="lang" href="#">RU</a>
-      </section>
+      </div>
     </section>
     <a class="hamburger" href="#"><img src="./images/menu.png" alt="hamburger menu"></a>
   </header>
-  <nav>
-    <ol class="er-catalog">
+  <nav class="top-catalog">
+    <ul class="er-catalog">
       <li class="er-catalog-list">
-        <a>Оборудование НТЦ «ЭРПА»</a>
+        <a href="#">Оборудование НТЦ «ЭРПА»</a>
       </li>
       <li class="er-catalog-list">
-        <a>Оборудование Yokogawa</a>
+        <a href="#">Оборудование Yokogawa</a>
       </li>
       <li class="er-catalog-list">
-        <a>Весь каталог</a>
+        <a href="#">Весь каталог</a>
       </li>
-    </ol>
+    </ul>
   </nav>
   <section class="er-poster">
     <h1 class="headline-common">Тестово-измерительное и калибровочное оборудование</h1>
     <h2 class="headline-erpa">Антенны измерительные</br>Стандарт частоты Ч1-2010 собственного производства</h2>
     </section>
+  </div>
   <nav>
-  <ol class="er-indicators">
+  <ul class="er-indicators">
     <li class="er-indicators-list"><a href="#" class="er-indicators-name">Калибраторы</a></li>
     <li class="er-indicators-list"><a href="#" class="er-indicators-name">Мультиметры</a></li>
     <li class="er-indicators-list"><a href="#" class="er-indicators-name">Регистраторы</a></li>
@@ -57,11 +67,11 @@
     <li class="er-indicators-list"><a href="#" class="er-indicators-name">Клещи токовые</a></li>
     <li class="er-indicators-list"><a href="#" class="er-indicators-name">Антенны измерительные</a></li>
     <li class="er-indicators-list"><a href="#" class="er-indicators-name">Стандарт частоты Ч1-2010</a></li>
-  </ol>
+  </ul>
   </nav>
   <section class="news">
-    <a class="pointer-decrease" href="#"><img src="./images/Dropdownchevron.png"></a>
-<ol class="er-news">
+    <input type="image" value="" class="pointer-decrease">
+<ul class="er-news">
   <li class="er-news-unit">
     <picture>
         <source srcset="./images/WT1800_S.png" media="(max-width: 670px)">
@@ -89,11 +99,10 @@
     </picture>
     <h4 class="news-unit-text">Компания «ЭРПА» принимает участие в выставке MetrolExpo, которая состоится 25 мая в г. Москве на ВДНХ.</h4>
   </li>
-  </ol>
-  <a class="pointer-increase" href="#"><img src="./images/Dropdownchevron1.png"></a>
+  </ul>
+  <input type="image" value="" class="pointer-increase">
   </section>
-  <section>
-  <ol class="er-manufacturer">
+  <ul class="er-manufacturer">
     <li class="Er-pr">
       <h4 class="made-in">Сделано в России</h4>
       <h5 class="company-name">ООО НТЦ «ЭРПА»</h5>
@@ -105,32 +114,31 @@
       <h5 class="company-name">Глобальная сеть YOKOGAWA</h5>
       <p class="description">включает 113 компаний в 60 странах мира. Основанная в 1915 году, компания занимается передовыми разработками и инновациями в области промышленной автоматизации и управления технологическими процессами, лабораторного и измерительного оборудования, авионики. Компания является поставщиком оборудования и решений для промышленных предприятий России и стран СНГ, выступает в роли подрядчика по автоматизации крупнейших проектов нефтегазовой отрасли, ведет совместные проекты в науке и образовании с инновационными и учебными центрами.</p>
     </li>
-  </ol>
-  </section>
+  </ul>
   <section class="er-help">
-     <section class="questions">
+     <div class="questions">
     <h5 class="help-title">Остались вопросы?</h5>
     <h5 class="help-title">Мы всегда готовы помочь!</h5>
-    </section>
-    <section class="button">
-    <a href="#" class="help-button">связаться с нами</a>
-    </section>
+    </div>
+    <div class="button">
+    <input type="button" class="help-button" value="связаться с нами">
+  </div>
   </section>
   <footer class="er-footer">
-    <ol class="f-catalog">
+    <ul class="f-catalog">
       <li><h5 class="footer-title">Каталог</h5></li>
       <li><a href="#" class="f-cat-el">Оборудование ЭРПА</a></li>
       <li><a href="#" class="f-cat-el">Оборудование Yokogawa</a></li>
-    </ol>
-    <ol class="f-company">
+    </ul>
+    <ul class="f-company">
       <li><h5 class="footer-title">О нас</h5></li>
       <li><a href="#" class="f-com-el">О компании</a></li>
       <li><a href="#" class="f-com-el">Контакты</a></li>
-    </ol>
+    </ul>
     <a href="#" class="f-mail">erpa@erpa.ru</a>
     <a href="#" class="f-phone">8(495)640-08-77</a>
     <a href="#" class="f-lang">Ru</a>
   </footer>
-
+</div>
 </body>
 </html>
